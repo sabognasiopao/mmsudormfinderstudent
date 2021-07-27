@@ -21,7 +21,7 @@
             <img style="float:right;margin-top:15px;" src="/images/user.png"  height="30" width="30">
                 <div class="menu">
                     <ul><li>
-                     <a href="#" style="float:right;margin:10px 0px 0px 10px;">18-020008</a>
+                     <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020008</a>
                         <ul>
                         <li><a href="profilestudent">Profile</a></li><br>
                         <li><a href="applicationlist">Application List</a></li><br>
