@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Regular;
+    src: url('/fonts/Archivo-Regular.ttf');
+}
+@font-face {
+    font-family: ABold;
+    src: url('/fonts/Archivo-Bold.ttf');
+}
+@font-face {
+    font-family: Unna;
+    src: url('/fonts/Unna-Regular.ttf');
+}
+body {
+    background-color: #F3EEED;
+    font-family: Regular;
+    margin:0px;
+}
+
+h1{
+    color: #0C4B05;
+}
+
+h3{
+    color: #FFCD00;
+}
+
+h4{
+    color: #FFCD00;
+    margin-left: 10px;
+    margin-right: 100px;
+    font-family:Unna;
+}
+
+form {
+    margin-left: 100px;
+    margin-top: 70px;
+    border-style: none;
+    display: inline-block;
+}
+
+legend{
+    color:#FFCD00;
+    font-size:20px;
+}
+
+
+label{
+    font-family: ABold;
+    color: #0C4B05;
+    font-size: 20px;
+    width: 200px;    
+    display: inline-block;
+}
+
+
+.header{
+  background-color: #FFCD00;
+  padding-left: 50px;
+  color: #0C4B05;
+  display: flex;
+}
+
+
+.header input[type=text] {
+padding: 6px;
+margin:0px 0px 0px -140px;
+font-size: 17px;
+border: none;
+}
+
+.header button:hover {
+background: #1D6115;
+}
+
+
+.header select{
+    margin:35px 0px 0px -80px;
+}
+
+.header label{
+  margin:40px 0px 0px 200px;
+}
+
+.header button{
+  background-color:transparent;
+  color: #FFCD00;
+  height: 33px;
+  width: 30;
+  margin: 25px 0px 0px 0px;
+  border-style: none;
+  cursor: pointer;
+}
+
+
+.applistform{
+    border-color: #FFCD00;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.usernav{
+    display: flex;
+    padding-left: 320px;
+    margin-top: 5px;
+}
+.uppernav {
+    background-color: #F3EEED;
+    display: flex;
+    height: 50px;
+    margin-top: -10px;
+}
+.topnav {
+    background-color: #0C4B05;
+    overflow: hidden;
+    display:flex;
+}
+  
+.topnav a {
+    color: #f2f2f2;
+    padding: 25px 50px 10px 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #FFCD00;
+    color: #1D6115; 
+}
+  
+.topnav a.active {
+    background-color: #1D6115;
+    color: white;
+}
+
+.logincontainer {
+    display: flex;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #0C4B05;
+}
+
+.loginform {
+    width: 250px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    text-indent: 10px;
+    margin-top: 70px;
+}
+
+.yellowbutton {
+    background-color:#FFCD00;
+    color: #0C4B05;
+    border-style: none;
+    width: 255px;
+    height: 40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.secondyellowbutton {
+    background-color:#FFCD00;
+    color: #0C4B05;
+    border-style: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.greenbutton {
+    background-color:#F3EEED;
+    color: #0C4B05;
+    border-style:solid;
+    border-color: #0C4B05;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:15px; 
+    margin-bottom:50px;
+    float: right;
+    cursor: pointer;
+}
+
+.inputapp{
+    font-family: Regular;
+    height: 30px;
+    display: inline-block;
+}
+
+.readapp{
+    font-family: Regular;
+    height: 30px;
+    border-style: none;
+    font-size: 20px;
+    background-color: #F3EEED;
+}
+
+.title {
+    color: #1D6115;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.dashboard_con {
+    position: absolute;
+    right:20%;
+    top:30%;
+    width: 500px;
+}
+
+.dashboard_con2 {
+    position: absolute;
+    left:10%;
+    top:30%;
+    width: 500px;
+}
+
+.btnapply {
+    width: 150px;
+    height: 50px;
+    border-radius: 35px;
+    margin-left: 180px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0C4B05;
+    margin-top: 20px;
+    border-style: none;
+    background-color: #FFCD00;
+    cursor: pointer;
+}
+
+.dorm_con {
+   margin: 100px 0px 0px 350px;
+    height: auto;
+    display:flex;
+}
+
+.onoffcampus_con {
+    width: 300px;
+    height: auto;
+    margin-right: 150px;
+}
+
+.onoffcampus_con a{
+    text-decoration: none;
+    color: #0C4B05;
+}
+
+
+.dorm_details_con {
+    margin: auto;
+    display: flex;
+}
+
+.dorm_name {
+    background-color: #0C4B05;
+    color: #FFCD00;
+    padding-left: 50px;
+}
+
+.dorm_details {
+    color: #FFCD00;
+    font-family: ABold;
+    font-size: 20px;
+    margin:-50px 0px 0px -200px;
+}
+
+.dorm_img {
+    display: flex;
+    margin-top: 100px;
+}
+
+/*SLIDESHOW IMAGE CSS*/
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .imgcontainer {
+    position: relative;
+    padding-left: 30px;
+    width: 600px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    margin-right:200px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color:#0C4B05;
+    color: #FFCD00;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+/*SLIDESHOW IMAGE CSS*/
+
+
+/* USER NAVIGATION */
+  .menu a {
+    text-decoration: none;
+    color:#FFCD00;
+    padding: 10px;
+    display:inline-block;
+  }
+  .menu a:hover{
+    background-color: #1D6115;
+    color:#FFCD00;
+  }
+  .menu ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  .menu ul li {
+      display: inline-block;
+      }
+
+  .menu ul li:hover {
+      background-color: #1D6115;
+     }
+
+  .menu ul li:hover ul {
+      display: block; 
+
+    }
+
+  .menu ul li ul {
+    position: absolute;
+    width: auto;
+    background-color: #1D6115;
+    display: none;
+    margin-top: 50px;
+    width: auto;
+}
+
+  .menu ul li ul li { 
+    background: #1D6115; 
+    display: block; }
+
+  .menu ul li ul li a {
+      display:block !important;
+    } 
+
+  .menu ul li ul li a:hover {
+      background: #0C4B05;
+      color: #FFCD00;
+   }
