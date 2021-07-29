@@ -43,7 +43,7 @@
                     <option value="chs">CHS</option>
                 </select>
 
-    <form style="margin-top:10;margin-left:10%;margin-top:2%;" action="###">
+    <form style="margin-left:10%;margin-top:2%;" action="###">
         <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search.." name="search">
         <button type="submit"><img src="https://img.icons8.com/pastel-glyph/50/000000/search--v2.png" width="100%"></button>
     </form>        
@@ -71,7 +71,7 @@
         </div>
 
         <div class="dorm_details">    
-        <form style="width:65%;">
+        <form style="width:65%;margin-top: 5%;">
             <label for="fname">Owner</label>
                 <input type="text" id="fname" name="fname" style="width: 400px;" class="readapp" value="Sample Name" readonly="readonly"><br>
             <label for="fname">Address</label>
@@ -94,7 +94,7 @@
             <label for="quantity" >Available space</label>
                 <input type="number" id="quantity" name="quantity" style="width: 50px;" class="readapp" min="0" value="10" readonly="readonly">
 
-            <button onclick="apply()" type="button" class="secondyellowbutton" style="margin-top:1%;"> APPLY</button>  
+            <button onclick="apply()" type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button>  
         </form>
         </div>
 

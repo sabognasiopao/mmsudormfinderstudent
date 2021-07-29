@@ -94,7 +94,7 @@
             <label for="quantity" >Available space</label>
                 <input type="number" id="quantity" name="quantity" style="width: 50px;" class="readapp" min="0" value="10" readonly="readonly">
 
-            <button onclick="apply()" type="button" class="secondyellowbutton" style="margin-top:1%;"> APPLY</button>  
+            <button onclick="apply()" type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button>  
         </form>
         </div>
 
