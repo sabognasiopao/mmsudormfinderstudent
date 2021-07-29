@@ -8,18 +8,17 @@
     </head>
 
     <body>
-    <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3></div>
+    <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3> </div>
     
     <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:20px;margin-top:10px;" src="/images/mmsu logo.png"  height="60" width="60">
+        <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
             <a href="#news">CONTACT</a>
             <a href="#contact">ABOUT US</a>
             <a href="dorm">LIST OF DORMS</a>
 
-            <div class="usernav">
-            <img style="float:right;margin-top:15px;" src="/images/user.png"  height="30" width="30">
                 <div class="menu">
+                <img style="float:right;margin-top:15px;" src="/images/user.png"  width="15%" height="40%">
                     <ul><li>
                      <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020008</a>
                         <ul>
@@ -28,22 +27,23 @@
                         <li><a href="welcome">Log Out</a></li>
                         </ul>
                     </ul></li>
-            </div></div>
+            </div>
     </div>
+
     
     <div class="dashboard_con2">   
     <div class="imgcontainer">
         <div class="mySlides"> 
-        <div class="numbertext">1 / 4</div> <img src="/images/sample.jpg" style="width:370px;height:370px;"></div>
+        <div class="numbertext">1 / 4</div> <img src="/images/sample.jpg" style="width:100%;height:100%;"></div>
 
         <div class="mySlides">
-        <div class="numbertext">2 / 4</div> <img src="/images/sample2.jpg" style="width:370px;height:370px;"> </div>
+        <div class="numbertext">2 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
 
         <div class="mySlides">
-        <div class="numbertext">3 / 4</div> <img src="/images/sample.jpg" style="width:370px;height:370px;"> </div>
+        <div class="numbertext">3 / 4</div> <img src="/images/sample.jpg"  style="width:100%;height:100%;"> </div>
 
         <div class="mySlides">
-        <div class="numbertext">4 / 4</div> <img src="/images/sample2.jpg" style="width:370px;height:370px;"> </div>
+        <div class="numbertext">4 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
 
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>

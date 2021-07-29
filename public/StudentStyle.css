@@ -20,11 +20,13 @@ body {
 
 h1{
     color: #0C4B05;
+    font-size: 2vw;
 }
 
 h3{
     color: #FFCD00;
     font-size: 1.3vw;
+    margin-top:5;
 }
 
 h4{
@@ -36,8 +38,6 @@ h4{
 }
 
 form {
-    margin-left: 100px;
-    margin-top: 70px;
     border-style: none;
     display: inline-block;
 }
@@ -46,14 +46,30 @@ legend{
     color:#FFCD00;
     font-size:2vw;
 }
+.profile_con{
+  width:100%;
+}
 
+.profile_con form{
+  margin-left:5%; margin-top:5%;
+  width:75%;
+
+}
+
+.profile_con label{
+  font-family: ABold;
+  color: #0C4B05;
+  font-size: 1.2vw;
+  display: inline-block;
+  width: 20%;
+}
 
 label{
     font-family: ABold;
     color: #0C4B05;
-    font-size: 20vw;
-    width: 200px;    
+    font-size: 1.5vw;
     display: inline-block;
+    width: 30%;
 }
 
 
@@ -62,13 +78,13 @@ label{
   padding-left: 50px;
   color: #0C4B05;
   display: flex;
+  width: auto;
 }
 
 
 .header input[type=text] {
 padding: 6px;
-margin:0px 0px 0px -140px;
-font-size: 17vw;
+font-size: 1vw;
 border: none;
 }
 
@@ -78,19 +94,22 @@ background: #1D6115;
 
 
 .header select{
-    margin:35px 0px 0px -80px;
+  margin-top:2%;
+  margin-left: 1%;
+  font-size: 1vw;
+  width: auto;
 }
 
 .header label{
-  margin:40px 0px 0px 200px;
+  margin-top:2%;
+  margin-left: 10%;
 }
 
 .header button{
   background-color:transparent;
   color: #FFCD00;
   height: 33px;
-  width: 30;
-  margin: 25px 0px 0px 0px;
+  width: 12%;
   border-style: none;
   cursor: pointer;
 }
@@ -99,19 +118,29 @@ background: #1D6115;
 .applistform{
     border-color: #FFCD00;
     border-style: solid;
+    margin-top: 2%;
     border-width: 2px;
 }
 
+.applistform form{
+  margin-left:5%; margin-top:3%;
+  width:60%;
+
+}
+
+.applistform label{
+  font-family: ABold;
+  color: #0C4B05;
+  font-size: 1.2vw;
+  display: inline-block;
+  width: 20%;
+
+}
 .container {
     display: flex;
     margin-top: 100px;
 }
 
-.usernav{
-    display: flex;
-    padding-left: 300px;
-    margin-top: 5px;
-}
 .uppernav {
     background-color: #F3EEED;
     display: flex;
@@ -127,7 +156,7 @@ background: #1D6115;
     color: #f2f2f2;
     padding: 2% 2% 1% 2%;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .topnav a:hover {
@@ -155,6 +184,7 @@ background: #1D6115;
     height: 35px;
     margin-left: 15%;
     margin-right: 20%;
+    margin-top: 15%;
     border-style: none;
     border-radius: 10px;
     text-indent: 10px;
@@ -176,11 +206,12 @@ background: #1D6115;
     background-color:#FFCD00;
     color: #0C4B05;
     border-style: none;
-    width: 200px;
+    width: 15%;
     height: 40px;
     border-radius: 20px;
     float: right;
     cursor: pointer;
+    font-size: 1vw;
 }
 
 .greenbutton {
@@ -188,18 +219,18 @@ background: #1D6115;
     color: #0C4B05;
     border-style:solid;
     border-color: #0C4B05;
-    width: 200px;
-    height: 40px;
+    width: 15%; height: 40px;
     border-radius: 20px;
-    margin-top:15px; 
-    margin-bottom:50px;
+    margin-top:15px; margin-bottom:50px;
     float: right;
     cursor: pointer;
+    font-size: 1vw;
 }
 
 .inputapp{
     font-family: Regular;
     height: 30px;
+    font-size: 1vw;
     display: inline-block;
 }
 
@@ -207,13 +238,14 @@ background: #1D6115;
     font-family: Regular;
     height: 30px;
     border-style: none;
-    font-size: 20px;
+    font-size: 1.3vw;
     background-color: #F3EEED;
+    margin-bottom: 2%;
 }
 
 .title {
     color: #1D6115;
-    font-size: 30vw;
+    font-size: 3vw;
     text-align: center;
     font-weight: bold;
 }
@@ -221,24 +253,24 @@ background: #1D6115;
 
 .dashboard_con {
     position: absolute;
-    right:20%;
+    right:15%;
     top:30%;
-    width: 500px;
+    width: 40%;
 }
 
 .dashboard_con2 {
     position: absolute;
     left:10%;
     top:30%;
-    width: 500px;
+    width: 35%;
 }
 
 .btnapply {
-    width: 150px;
-    height: 50px;
+    width: 25%;
+    height: 40px;
     border-radius: 35px;
-    margin-left: 180px;
-    font-size: 15vw;
+    margin-left: 40%;
+    font-size: 1vw;
     font-weight: bold;
     color: #0C4B05;
     margin-top: 20px;
@@ -266,8 +298,10 @@ background: #1D6115;
 
 
 .dorm_details_con {
-    margin: auto;
-    display: flex;
+    position: absolute;
+    left:3%;
+    top:38%;
+    width: 40%;
 }
 
 .dorm_name {
@@ -279,8 +313,8 @@ background: #1D6115;
 .dorm_details {
     color: #FFCD00;
     font-family: ABold;
-    font-size: 20vw;
-    margin:-50px 0px 0px -200px;
+    font-size: 2vw;
+    margin-left: 40%;
 }
 
 .dorm_img {
@@ -301,7 +335,8 @@ background: #1D6115;
   .imgcontainer {
     position: relative;
     padding-left: 30px;
-    width: 600px;
+    width: 80%;
+    height: 350px;
   }
   
   /* Hide the images by default */
@@ -320,11 +355,11 @@ background: #1D6115;
     cursor: pointer;
     position: absolute;
     top: 40%;
-    width: auto;
-    padding: 16px;
+    width: 7%;
+    padding: 3%;
     color: white;
     font-weight: bold;
-    font-size: 20vw;
+    font-size: 1.5vw;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
@@ -333,7 +368,7 @@ background: #1D6115;
   /* Position the "next button" to the right */
   .next {
     right: 0;
-    margin-right:200px;
+    padding-right: 5%;
     border-radius: 3px 0 0 3px;
   }
   
@@ -347,7 +382,7 @@ background: #1D6115;
   /* Number text (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
-    font-size: 12vw;
+    font-size: 1vw;
     padding: 8px 12px;
     position: absolute;
     top: 0;
@@ -378,11 +413,20 @@ background: #1D6115;
 
 
 /* USER NAVIGATION */
+
+.menu{
+    display: flex;
+    float: right;
+    margin-top: 5px;
+    margin-left: 30%;
+}
+
   .menu a {
     text-decoration: none;
     color:#FFCD00;
     padding: 10px;
     display:inline-block;
+    font-size: 1.2vw;
   }
   .menu a:hover{
     background-color: #1D6115;
