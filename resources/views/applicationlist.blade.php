@@ -14,8 +14,8 @@
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="#news">CONTACT</a>
-            <a href="#contact">ABOUT US</a>
+            <a href="contact">CONTACT</a>
+            <a href="about">ABOUT US</a>
             <a href="dorm">LIST OF DORMS</a>
 
                 <div class="menu">
@@ -31,13 +31,12 @@
             </div>
     </div>
 
-
     <div class="header"> <h1>APPLICATION LIST</h1> </div>
     <div class="applistform">
     <form>
         <label for="dormname">Dorm Name:</label>
             <input type="text" id="dormname" value="Insert Dorm Name" style="width: 20%;" class="readapp" readonly="readonly"><br>
-        <label for="fname">Owner</label>
+        <label for="fname">Manager:</label>
                 <input type="text" id="fname" name="fname" style="width: 20%;" class="readapp" value="Sample Name" readonly="readonly"><br>
         <label for="roomtype">Room Type:</label>
             <input type="text" id="roomtype" value="Single Bed Space" style="width: 20%;" class="readapp" readonly="readonly"><br>
@@ -48,6 +47,7 @@
         <input type="text" id="process" value="Waiting for Approval" style="width: 20%;" class="readapp" readonly="readonly"><br>
     </form>
     </div>
-        </body>
-    </head>
+
+</body>
+</head>
 </html>

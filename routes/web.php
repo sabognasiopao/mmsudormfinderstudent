@@ -44,3 +44,15 @@ Route::get('/applicationlist', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/confirm', function () {
+    return view('confirm');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});

@@ -1,13 +1,14 @@
 <html>
     <head>
-        <title>MMSU-Dorm Finder</title>
+        <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MMSU - Dorm Finder</title>
 
         <!-- CSS -->
-            <link rel="stylesheet" type="text/css" href="StudentStyle.css">
+        <link rel="stylesheet" type="text/css" href="StudentStyle.css">  
         <!-- SCRIPT -->
-            <script src="/studentDormFinder.js"></script>
+        <script src="/studentDormFinder.js"></script>
+
         <link rel="icon" href="/images/mmsu logo.png">
-  
     </head>
 
     <body>
@@ -16,8 +17,8 @@
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="#news">CONTACT</a>
-            <a href="#contact">ABOUT US</a>
+            <a href="contact">CONTACT</a>
+            <a href="about">ABOUT US</a>
             <a href="dorm">LIST OF DORMS</a>
 
                 <div class="menu">
@@ -71,30 +72,30 @@
         </div>
 
         <div class="dorm_details">    
-        <form style="width:65%;margin-top: 5%;">
+        <form style="width:80%;margin-top: 2%;">
             <label for="fname">Manager</label>
-                <input type="text" id="fname" name="fname" style="width: 400px;" class="readapp" value="Sample Name" readonly="readonly"><br>
+                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Name" readonly="readonly"><br>
             <label for="fname">Address</label>
-                <input type="text" id="fname" name="fname" style="width: 400px;" class="readapp" value="Sample Location" readonly="readonly"><br>
+                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Location" readonly="readonly"><br>
             <label for="fname">Contact</label>
-                <input type="text" id="fname" name="fname" style="width: 400px;" class="readapp" value="Sample Contact" readonly="readonly"><br>
+                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Contact" readonly="readonly"><br>
             <label for="fname">Amenities</label>
-                <input type="text" id="fname" name="fname" style="width: 400px;" class="readapp" value="Sample Amenities" readonly="readonly"><br>
+                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Amenities" readonly="readonly"><br>
     
             <label for="room">Type of Room</label>
-                <select name="room" id="room" style="width: 100px;"class="inputapp">
+                <select name="room" id="room" style="width: 20%;"class="inputapp">
                     <option value="cas">CAS</option>
                     <option value="coe">COE</option>
                     <option value="cbea">CBEA</option>
                     <option value="chs">CHS</option>
                 </select>
             <label for="fname" style="width:20%;margin-left:3%">Room Fee</label>
-                <input type="text" id="fname" name="fname" style="width: 100px;" class="readapp" value="1200" readonly="readonly"><br>
+                <input type="text" id="fname" name="fname" style="width: 10%;margin-left:-5%;" class="readapp" value="1200" readonly="readonly"><br>
    
             <label for="quantity" >Available space</label>
-                <input type="number" id="quantity" name="quantity" style="width: 50px;" class="readapp" min="0" value="10" readonly="readonly">
+                <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly">
 
-            <button onclick="apply()" type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button>  
+            <a href="confirm"><button type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button></a>  
         </form>
         </div>
 

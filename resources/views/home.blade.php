@@ -1,9 +1,13 @@
 <html>
     <head>
-        <title>MMSU-Dorm Finder</title>
+        <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MMSU - Dorm Finder</title>
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="StudentStyle.css">  
+        <!-- SCRIPT -->
+        <script src="/studentDormFinder.js"></script>
+
         <link rel="icon" href="/images/mmsu logo.png">
     </head>
 
@@ -13,8 +17,8 @@
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="#news">CONTACT</a>
-            <a href="#contact">ABOUT US</a>
+            <a href="contact">CONTACT</a>
+            <a href="about">ABOUT US</a>
             <a href="dorm">LIST OF DORMS</a>
 
                 <div class="menu">
@@ -30,7 +34,6 @@
             </div>
     </div>
 
-    
     <div class="dashboard_con2">   
     <div class="imgcontainer">
         <div class="mySlides"> 
@@ -51,7 +54,7 @@
 
     <div class="dashboard_con">   
         <h2 class="title">STUDENT HOUSE FACILITIES</h2>
-            <p>With the understanding of the role that accommodation plays supporting academic performance, the Mariano Marcos State University offers a decent array of accommodations for qualified students. These accommodations are made available exclusively to its residents with the goal of providing secure and comfortable safe spaces to live in during their stay in the University.</p>
+            <p style="text-indent:30px;text-align: justify;">With the understanding of the role that accommodation plays supporting academic performance, the Mariano Marcos State University offers a decent array of accommodations for qualified students. These accommodations are made available exclusively to its residents with the goal of providing secure and comfortable safe spaces to live in during their stay in the University.</p>
             <a href="dorm"><button type="button" class="btnapply">APPLY NOW</button></a>
     </div>
 

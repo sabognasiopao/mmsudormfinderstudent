@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+        <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MMSU - Dorm Finder</title>
 
         <!-- CSS -->
@@ -14,7 +10,6 @@
         <script src="/studentDormFinder.js"></script>
 
         <link rel="icon" href="/images/mmsu logo.png">
-
     </head>
     
     <body class="antialiased">
@@ -23,8 +18,8 @@
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;" src="/images/mmsu logo.png"  height="5%" width="5%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="#news">CONTACT</a>
-            <a href="#contact">ABOUT US</a>
+            <a href="contact">CONTACT</a>
+            <a href="about">ABOUT US</a>
             <a href="dorm">LIST OF DORMS</a>
     </div>
     

@@ -19,8 +19,8 @@
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="contact">CONTACT</a>
-            <a href="about">ABOUT US</a>
+            <a href="#news">CONTACT</a>
+            <a href="#contact">ABOUT US</a>
             <a href="dorm">LIST OF DORMS</a>
 
                 <div class="menu">
@@ -58,24 +58,31 @@
             <input type="date" id="birthday" style="width: 25%;" class="inputapp">
         <label style="margin-left:30px;" for="birthday">Address</label>
             <input type="text" id="birthday" value="Brgy. 26, Laoag City" style="width: 25%;" class="inputapp"><br><br><br><br>
+        
         <label for="college">College:</label>
-        <select name="room" id="room" style="width:20%;"class="inputapp">
+        <select name="room" id="room" style="width:25%;"class="inputapp">
+            <option value="cas">CAS</option>
+            <option value="coe">COE</option>
+            <option value="cbea">CBEA</option>
+            <option value="chs">CHS</option>
+        </select>
+        
+        <label style="margin-left:30px;" for="course">Course:</label>
+        <select name="room" id="room" style="width:25%;"class="inputapp">
             <option value="cas">CAS</option>
             <option value="coe">COE</option>
             <option value="cbea">CBEA</option>
             <option value="chs">CHS</option>
         </select><br><br>
-        <label for="course">Course:</label>
-        <select name="room" id="room" style="width:20%;"class="inputapp">
-            <option value="cas">CAS</option>
-            <option value="coe">COE</option>
-            <option value="cbea">CBEA</option>
-            <option value="chs">CHS</option>
-        </select><br><br>
-       
 
-        <a href="home"><button type="button" class="greenbutton" style="margin-top:20px;">CANCEL</button></a>
-        <button type="button" onclick="updateProfileFunction()" class="secondyellowbutton" style="margin-right:10px;margin-top:20px;"> UPDATE</button>
+        <label  for="dorm">Dormitory</label>
+            <input type="text" id="dorm" value="Insert Dorm Name" style="width: 25%;" class="inputapp">
+        
+        <label style="margin-left:30px;" for="roomtype">Room Type</label>
+            <input type="text" id="roomtype" value="Insert Room Type" style="width: 25%;" class="inputapp">
+       
+        <a href="home"><button type="button" class="greenbutton" style="margin-top:40px;">CANCEL</button></a>
+        <button type="button" onclick="###" class="secondyellowbutton" style="margin-right:10px;margin-top:40px;"> CONFIRM</button>
     </div>
     </form>
 

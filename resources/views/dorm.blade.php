@@ -1,11 +1,13 @@
 <html>
     <head>
-        <title>MMSU-Dorm Finder</title>
+        <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MMSU - Dorm Finder</title>
 
         <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="StudentStyle.css">
+        <link rel="stylesheet" type="text/css" href="StudentStyle.css">  
         <!-- SCRIPT -->
         <script src="/studentDormFinder.js"></script>
+
         <link rel="icon" href="/images/mmsu logo.png">
     </head>
     <body>
@@ -15,8 +17,8 @@
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="#news">CONTACT</a>
-            <a href="#contact">ABOUT US</a>
+            <a href="contact">CONTACT</a>
+            <a href="about">ABOUT US</a>
             <a href="dorm">LIST OF DORMS</a>
 
                 <div class="menu">
@@ -36,13 +38,13 @@
     <div class="dorm_con">
         <div class="onoffcampus_con">
             <a href="oncampus">
-            <img src="/images/sample.jpg" width="300px" height="300px">
-            <p><b>ON - CAMPUS</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></a>
+            <img src="/images/on.png" width="100%">
+            <p style="text-align: justify;"><b>ON - CAMPUS</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></a>
             
         </div>
         <div class="onoffcampus_con">
-        <a href="offcampus"><img src="/images/sample.jpg" width="300px" height="300px">
-            <p><b>OFF - CAMPUS</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></a>
+        <a href="offcampus"><img src="/images/off.png" width="100%">
+            <p style="text-align: justify;"><b>OFF - CAMPUS</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></a>
         </div>
     </div>
 </body>
