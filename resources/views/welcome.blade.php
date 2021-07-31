@@ -18,9 +18,6 @@
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;" src="/images/mmsu logo.png"  height="5%" width="5%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="contact">CONTACT</a>
-            <a href="about">ABOUT US</a>
-            <a href="dorm">LIST OF DORMS</a>
     </div>
     
     <img style="float:left;margin-right:100px;margin-left:80px;" src="/images/mmsu logo.png"  height="80%" width="40%">
