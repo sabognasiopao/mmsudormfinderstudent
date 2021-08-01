@@ -52,7 +52,7 @@
     </section>
    
     <section>
-        <h2><p class="text--sub">house facilities</p>Off Campus <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
+        <h2 class="h2nav"><p class="text--sub">house facilities</p>Off Campus <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
           cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ON CAMPUS</p>
           <a href="oncampus"><button type="button" class="dorm">E N T E R</button></a>
         </h2>
