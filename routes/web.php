@@ -56,3 +56,7 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/detailsdorm', function () {
+    return view('detailsdorm');
+});

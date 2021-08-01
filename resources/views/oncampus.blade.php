@@ -36,12 +36,10 @@
 
 
     <div class="header"> <h1>HOUSING FACILITIES - ON CAMPUS</h1>
-    <label for="room" style="width:10%;margin-left:10%">Room Type</label>
+    <label for="room" style="width:5%;">Price</label>
                 <select name="room" id="room" class="inputapp">
-                    <option value="cas" onclick="filterSelection('cars')">CAS</option>
-                    <option value="coe">COE</option>
-                    <option value="cbea">CBEA</option>
-                    <option value="chs">CHS</option>
+                    <option value="coe">Low to High</option>
+                    <option value="cbea">High to Low</option>
                 </select>
 
     <form style="margin-left:10%;margin-top:2%;" action="###">
@@ -50,138 +48,28 @@
     </form>        
     </div>
         
-        <div class="dorm_name"> <h2>STUDENT RESIDENCE HALL</h2> </div><br>
-        <div class="dorm_details_con">
-
-        <div id="slideshow1" class="imgcontainer">
-        <div class="mySlides"> 
-        <div class="numbertext">1 / 4</div> <img src="/images/sample.jpg" style="width:100%;height:100%;"></div>
-
-        <div class="mySlides">
-        <div class="numbertext">2 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
-
-        <div class="mySlides">
-        <div class="numbertext">3 / 4</div> <img src="/images/sample.jpg"  style="width:100%;height:100%;"> </div>
-
-        <div class="mySlides">
-        <div class="numbertext">4 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
-
-        <a class="prev" onclick="plusSlides(-1, slideshow1)">❮</a>
-        <a class="next" onclick="plusSlides(1, slideshow1)">❯</a>
-        </div>
-        </div>
-
-        <div class="dorm_details">    
-        <form style="width:80%;margin-top: 2%;">
-            <label for="fname">Manager</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Name" readonly="readonly"><br>
-            <label for="fname">Address</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Location" readonly="readonly"><br>
-            <label for="fname">Contact</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Contact" readonly="readonly"><br>
-            <label for="fname">Amenities</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Amenities" readonly="readonly"><br>
     
-            <label for="room">Type of Room</label>
-                <select name="room" id="room" style="width: 20%;"class="inputapp">
-                    <option value="cas">CAS</option>
-                    <option value="coe">COE</option>
-                    <option value="cbea">CBEA</option>
-                    <option value="chs">CHS</option>
-                </select>
-            <label for="fname" style="width:20%;margin-left:3%">Room Fee</label>
-                <input type="text" id="fname" name="fname" style="width: 10%;margin-left:-5%;" class="readapp" value="1200" readonly="readonly"><br>
-   
-            <label for="quantity" >Available space</label>
-                <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly">
+    <div class="listappcontainer">
+    <div class="tableFixHeadtitle">LIST OF DORMITORIES</div>  
+    <div class="tableFixHead">
+      <table>
+        <thead>
+          <tr>
+            <th>DORMITORY NAME</th>
+            <th>DORM MANAGER</th>
+            <th>CONTACT NUMBER</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="detailsdorm">Ladies Dormitory</a></td>
+            <td>Marilyn Rojo</td>
+            <td>09355350600</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
 
-            <a href="confirm"><button type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button></a>  
-        </form>
-        </div>
-
-        <div class="dorm_name"> <h2>STUDENT RESIDENCE HALL</h2> </div><br>
-        <div class="dorm_details_con">
-
-        <div  id="slideshow2" class="imgcontainer">
-        <div class="mySlides"> 
-        <div class="numbertext">1 / 4</div> <img src="/images/sample2.jpg" style="width:100%;height:100%;"></div>
-
-        <div class="mySlides">
-        <div class="numbertext">2 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
-
-        <div class="mySlides">
-        <div class="numbertext">3 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
-
-        <div class="mySlides">
-        <div class="numbertext">4 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
-
-        <a class="prev" onclick="plusSlides(-1,slideshow2)">❮</a>
-        <a class="next" onclick="plusSlides(1,slideshow2)">❯</a>
-        </div>
-        </div>
-
-        <div class="dorm_details">    
-        <form style="width:80%;margin-top: 2%;">
-            <label for="fname">Manager</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Name" readonly="readonly"><br>
-            <label for="fname">Address</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Location" readonly="readonly"><br>
-            <label for="fname">Contact</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Contact" readonly="readonly"><br>
-            <label for="fname">Amenities</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Amenities" readonly="readonly"><br>
-    
-            <label for="room">Type of Room</label>
-                <select name="room" id="room" style="width: 20%;"class="inputapp">
-                    <option value="cas">CAS</option>
-                    <option value="coe">COE</option>
-                    <option value="cbea">CBEA</option>
-                    <option value="chs">CHS</option>
-                </select>
-            <label for="fname" style="width:20%;margin-left:3%">Room Fee</label>
-                <input type="text" id="fname" name="fname" style="width: 10%;margin-left:-5%;" class="readapp" value="1200" readonly="readonly"><br>
-   
-            <label for="quantity" >Available space</label>
-                <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly">
-
-            <a href="confirm"><button type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button></a>  
-        </form>
-        </div>
-
-<script>
-        var slideshow1 = document.getElementById("slideshow1");
-        slideshow1.currentSlideIndex = 1;
-        showSlides(slideshow1.currentSlideIndex, slideshow1);
-
-        var slideshow2 = document.getElementById("slideshow2");
-        slideshow2.currentSlideIndex = 1;
-        showSlides(slideshow2.currentSlideIndex, slideshow2);
-
-
-        function plusSlides(n, slideshow) {
-        showSlides(slideshow.currentSlideIndex += n, slideshow);
-        }
-
-        function currentSlide(n, slideshow) {
-        showSlides(slideshow.currentSlideIndex = n, slideshow);
-        }
-
-        function showSlides(n, slideshow) {
-  
-            var i;
-            var slides = slideshow.getElementsByClassName("mySlides");
-       
-            if (n > slides.length) {slideshow.currentSlideIndex = 1}    
-            if (n < 1) {slideshow.currentSlideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-
-        slides[slideshow.currentSlideIndex-1].style.display = "block";  
-        }
-    
-        </script>
-
-        </body>
-    </head>
+    </body>
 </html>
