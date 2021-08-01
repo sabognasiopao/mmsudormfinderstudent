@@ -10,7 +10,7 @@
 
         <link rel="icon" href="/images/mmsu logo.png">
     </head>
-    <body>
+    <body style="overflow: hidden;" >
         
     <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3></div>
     
@@ -34,18 +34,33 @@
             </div>
     </div>
 
+        <input type="radio" name="item" checked="checked" id="section1" />
+    <input type="radio" name="item" id="section2" />
     
-    <div class="dorm_con">
-        <div class="onoffcampus_con">
-            <a href="oncampus">
-            <img src="/images/on.png" width="100%">
-            <p style="text-align: justify;"><b>ON - CAMPUS</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></a>
-            
-        </div>
-        <div class="onoffcampus_con">
-        <a href="offcampus"><img src="/images/off.png" width="100%">
-            <p style="text-align: justify;"><b>OFF - CAMPUS</b>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p></a>
-        </div>
-    </div>
+    <nav class="nav">
+      <label class="nav-item" for="section1">ON</label>
+      <label class="nav-item" for="section2">OFF</label>
+    </nav>
+
+    <section>
+        <h2 class="h2nav"><p class="text--sub">house facilities</p>On Campus <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
+          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ON CAMPUS</p>
+          <a href="oncampus"><button type="button" class="dorm">E N T E R</button></a>
+        </h2>
+          <img class="__img" src="images/on.png" />
+          
+    </section>
+   
+    <section>
+        <h2><p class="text--sub">house facilities</p>Off Campus <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
+          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ON CAMPUS</p>
+          <a href="oncampus"><button type="button" class="dorm">E N T E R</button></a>
+        </h2>
+          
+          <img class="__img" src="images/off.png" />
+        </section>
+    
+    <div class="cover"></div>
+
 </body>
 </html>

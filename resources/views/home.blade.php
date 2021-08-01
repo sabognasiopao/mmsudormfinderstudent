@@ -11,7 +11,7 @@
         <link rel="icon" href="/images/mmsu logo.png">
     </head>
 
-    <body>
+    <body style="background-image: url('/images/bg.jpg');background-repeat: no-repeat; background-size: 100% 100%;">
     <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3> </div>
     
     <div class="topnav" id="myTopnav">
@@ -34,59 +34,22 @@
             </div>
     </div>
 
-    <div class="dashboard_con2">   
-    <div class="imgcontainer">
-        <div class="mySlides"> 
-        <div class="numbertext">1 / 4</div> <img src="/images/sample.jpg" style="width:100%;height:100%;"></div>
+    
+    <img style="z-index: 2;right:10%;" class="__img" src="images/mmsu logo.png" />
+    <input type="radio" name="item" checked="checked" id="section1" />
+    
 
-        <div class="mySlides">
-        <div class="numbertext">2 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
+    <section style="width: 70%;margin-left:0%;padding-bottom:5%;">
+        <h2 class="h2nav"><p class="text--sub">welcome !</p>STUDENT HOUSE<br> FACILITIES <p class="text--normal">With the understanding of the role that accommodation plays supporting 
+            academic performance, the Mariano Marcos State University offers a decent array of accommodations for qualified students. These accommodations are made available exclusively to its residents with the goal of providing secure and comfortable safe spaces to live in during their stay in the University.</p><p class="text__background">ON CAMPUS</p>
+          <a href="dorm"><button type="button" style="margin-top:1%;" class="dorm">A P P L Y</button></a>
+        </h2>
+    </section>
 
-        <div class="mySlides">
-        <div class="numbertext">3 / 4</div> <img src="/images/sample.jpg"  style="width:100%;height:100%;"> </div>
+   
 
-        <div class="mySlides">
-        <div class="numbertext">4 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
+    
 
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-    </div></div>
-
-    <div class="dashboard_con">   
-        <h2 class="title">STUDENT HOUSE FACILITIES</h2>
-            <p style="text-indent:30px;text-align: justify;">With the understanding of the role that accommodation plays supporting academic performance, the Mariano Marcos State University offers a decent array of accommodations for qualified students. These accommodations are made available exclusively to its residents with the goal of providing secure and comfortable safe spaces to live in during their stay in the University.</p>
-            <a href="dorm"><button type="button" class="btnapply">APPLY NOW</button></a>
-    </div>
-
-    <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-            showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-            showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            var captionText = document.getElementById("caption");
-                if (n > slides.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-            captionText.innerHTML = dots[slideIndex-1].alt;
-            }
-        </script>
+  
 </body>
 </html>
