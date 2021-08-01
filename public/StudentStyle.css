@@ -612,13 +612,14 @@ th {
   margin: 12px auto;
   padding-top: 7px;
   padding-left: 2px;
-  border: solid 2px #FFCD00;
-  border-radius: 50%;
+  color: #FFB700;
+  border: solid 2px #FFB700;
+  border-radius: 30%;
   cursor: pointer;
   font-size:0.8vw;
 }
 .nav-item:hover {
-  background-color: #FFCD00;
+  background-color: #FFB700;
 }
 section {
   margin-top:7.4%;
@@ -635,12 +636,10 @@ section {
   transition-delay: 0.5s;
 }
 
-
-
 .h2nav {
   font-size: 80px;
   text-align: left;
-  color: #FFCD00;
+  color: #FFB700;
 }
 section:nth-of-type(1) {
   background: #0C4B05;
@@ -653,7 +652,8 @@ input[type='radio'] {
   display: none;
 }
 input[type='radio']#section1:checked ~ nav label[for='section1'] {
-  background-color:#FFCD00;
+  background-color:#FFB700;
+  color: #0C4B05;
 }
 input[type='radio']#section1:checked ~ section:nth-of-type(1) {
   z-index: 1;
@@ -662,10 +662,11 @@ input[type='radio']#section1:checked ~ section:nth-of-type(1) {
   transition-delay: 0s;
 }
 input[type='radio']#section1:checked ~ .cover {
-  background-color: #FFCD00;
+  background-color: #FFB700;
 }
 input[type='radio']#section2:checked ~ nav label[for='section2'] {
-  background-color: #FFCD00;
+  background-color: #FFB700;
+  color: #0C4B05;
 }
 input[type='radio']#section2:checked ~ section:nth-of-type(2) {
   z-index: 1;
@@ -674,7 +675,7 @@ input[type='radio']#section2:checked ~ section:nth-of-type(2) {
   transition-delay: 0s;
 }
 input[type='radio']#section2:checked ~ .cover {
-  background-color: #FFCD00;
+  background-color: #FFB700;
 }
 
 .text--sub {
@@ -713,7 +714,7 @@ input[type='radio']#section2:checked ~ .cover {
 }
 
 .dorm {
-  background-color:#FFCD00;
+  background-color:#FFB700;
   color: #0C4B05;
   margin-top: -3%;
   border-style: none;
