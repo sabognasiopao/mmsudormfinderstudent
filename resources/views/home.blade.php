@@ -14,14 +14,16 @@
     <body style="background-image: url('/images/bg.jpg');background-repeat: no-repeat; background-size: 100% 100%;">
     <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3> </div>
     
+    <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3></div>
+    
     <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
-        <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="contact">CONTACT</a>
-            <a href="about">ABOUT US</a>
-            <a href="dorm">LIST OF DORMS</a>
+       <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
+       <a style=" text-decoration: none;width:20%;margin:0%;" href="home"><h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4></a>
+            <a class="topnavlink" href="contact">CONTACT</a>
+            <a class="topnavlink" href="about">ABOUT US</a>
+            <a class="topnavlink" href="dorm">LIST OF DORMS</a>
 
-            <div class="menu">
+                <div class="menu">
                 <img style="float:right;margin-top:15px;" src="/images/user.png"  width="15%" height="40%">
                     <ul><li>
                      <a href="#" style="float:right;margin:10px 0px 0px 0px;">18-020008</a>
@@ -34,7 +36,6 @@
             </div>
     </div>
 
-    
     <img style="z-index: 2;right:10%;" class="__img" src="images/mmsu logo.png" />
     <input type="radio" name="item" checked="checked" id="section1" />
     
