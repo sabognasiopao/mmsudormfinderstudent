@@ -172,8 +172,8 @@ background: #1D6115;
 .logincontainer {
   width: 30%;
   border-radius: 10px;
-  float: left;
-  margin: 7% 0% 0% 10%;
+  float: right;
+  margin: 7% 15% 0% 0%;
   height: 400px;
   background-color: #0C4B05;
 }
