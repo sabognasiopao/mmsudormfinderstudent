@@ -41,7 +41,7 @@
 
     <section style="width: 70%;margin-left:0%;padding-bottom:5%;">
         <h2 class="h2nav"><p class="text--sub">welcome !</p>STUDENT HOUSE<br> FACILITIES <p class="text--normal">With the understanding of the role that accommodation plays supporting 
-            academic performance, the Mariano Marcos State University offers a decent array of accommodations for qualified students. These accommodations are made available exclusively to its residents with the goal of providing secure and comfortable safe spaces to live in during their stay in the University.</p><p class="text__background">HOUSE FACILITIES</p>
+            academic performance, the Mariano Marcos State University offers a decent array of accommodations for qualified students. These accommodations are made available exclusively to its residents with the goal of providing secure and comfortable safe spaces to live in during their stay in the University.</p>
           <a href="dorm"><button type="button" style="margin-top:1%;" class="dorm">A P P L Y</button></a>
         </h2>
     </section>
