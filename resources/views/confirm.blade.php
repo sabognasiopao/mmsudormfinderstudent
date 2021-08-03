@@ -17,11 +17,11 @@
     <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3></div>
     
     <div class="topnav" id="myTopnav">
-        <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
-        <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-            <a href="contact">CONTACT</a>
-            <a href="about">ABOUT US</a>
-            <a href="dorm">LIST OF DORMS</a>
+       <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
+       <a style=" text-decoration: none;width:20%;margin:0%;" href="home"><h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4></a>
+            <a class="topnavlink" href="contact">CONTACT</a>
+            <a class="topnavlink" href="about">ABOUT US</a>
+            <a class="topnavlink" href="dorm">LIST OF DORMS</a>
 
                 <div class="menu">
                 <img style="float:right;margin-top:15px;" src="/images/user.png"  width="15%" height="40%">
@@ -57,22 +57,33 @@
         <label for="birthday">Date of Birth</label>
             <input type="date" id="birthday" style="width: 25%;" class="inputapp">
         <label style="margin-left:30px;" for="birthday">Address</label>
-            <input type="text" id="birthday" value="Brgy. 26, Laoag City" style="width: 25%;" class="inputapp"><br><br><br><br>
+            <input type="text" id="birthday" value="Brgy. 26, Laoag City" style="width: 25%;" class="inputapp"><br><br>
 
         <label for="college">College</label>
             <input type="text" id="college" value="CAS" style="width: 25%;" class="inputapp">
 
         <label style="margin-left:30px;" for="college">Course</label>
-            <input type="text" id="college" value="BSCS" style="width: 25%;" class="inputapp"><br><br>
+            <input type="text" id="college" value="BSCS" style="width: 25%;" class="inputapp"><br><br><br>
         
+        <h2 style="color:#0C4B05;">SELECT DESIRED ROOM TYPE:</h2>
         <label  for="dorm">Dormitory</label>
             <input type="text" id="dorm" value="Insert Dorm Name" style="width: 25%;" class="inputapp">
-        
-        <label style="margin-left:30px;" for="roomtype">Room Type</label>
-            <input type="text" id="roomtype" value="Insert Room Type" style="width: 25%;" class="inputapp">
+  
+        <label style="margin-left:30px;" for="room">Type of Room</label>
+                <select name="room" id="room" style="width: 20%;"class="inputapp">
+                    <option value="cas">CAS</option>
+                    <option value="coe">COE</option>
+                    <option value="cbea">CBEA</option>
+                    <option value="chs">CHS</option>
+                </select><br><br>
        
-        <a href="home"><button type="button" class="greenbutton" style="margin-top:40px;">CANCEL</button></a>
-        <button type="button" onclick="###" class="secondyellowbutton" style="margin-right:10px;margin-top:40px;"> CONFIRM</button>
+        <label for="contract">Contract</label>  <a href="/sampledocx/sampledoc.pdf" download><button type="button" id="contract" class="contractbutton"  > DOWNLOAD FILE</button></a>
+        <div style="display:flex;width:100%;">
+        <p class="note"> NOTE: Before confirming, kindly check the contract for the terms of service.</p>
+        <button type="button" onclick="###" class="secondyellowbutton" style="margin-top:20px;margin-right:10px;margin-left:10%;"> CONFIRM</button>
+        <a href="home"><button type="button"  class="cancelbutton">CANCEL</button></a>
+        
+        </div>
     </div>
     </form>
 

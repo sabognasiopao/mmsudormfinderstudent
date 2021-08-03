@@ -41,17 +41,13 @@
         <div class="dorm_details_con">
 
         <div id="slideshow" class="imgcontainer">
-        <div class="mySlides"> 
-        <div class="numbertext">1 / 4</div> <img src="/images/sample.jpg" style="width:100%;height:100%;"></div>
+        <div class="mySlides"> <img src="/images/sample.jpg" style="width:100%;height:100%;"></div>
 
-        <div class="mySlides">
-        <div class="numbertext">2 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
+        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
 
-        <div class="mySlides">
-        <div class="numbertext">3 / 4</div> <img src="/images/sample.jpg"  style="width:100%;height:100%;"> </div>
+        <div class="mySlides"><img src="/images/sample.jpg"  style="width:100%;height:100%;"> </div>
 
-        <div class="mySlides">
-        <div class="numbertext">4 / 4</div> <img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
+        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
 
         <a class="prev" onclick="plusSlides(-1, slideshow)">❮</a>
         <a class="next" onclick="plusSlides(1, slideshow)">❯</a>
@@ -59,7 +55,7 @@
         </div>
 
         <div class="dorm_details">    
-        <form style="width:80%;margin-top: 2%;">
+        <form style="width:80%;">
             <label for="fname">Manager</label>
                 <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Name" readonly="readonly"><br>
             <label for="fname">Address</label>
@@ -68,19 +64,20 @@
                 <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Contact" readonly="readonly"><br>
             <label for="fname">Amenities</label>
                 <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Amenities" readonly="readonly"><br>
-    
-            <label for="room">Type of Room</label>
-                <select name="room" id="room" style="width: 20%;"class="inputapp">
-                    <option value="cas">CAS</option>
-                    <option value="coe">COE</option>
-                    <option value="cbea">CBEA</option>
-                    <option value="chs">CHS</option>
-                </select>
-            <label for="fname" style="width:20%;margin-left:3%">Room Fee</label>
-                <input type="text" id="fname" name="fname" style="width: 10%;margin-left:-5%;" class="readapp" value="1200" readonly="readonly"><br>
-   
             <label for="quantity" >Available space</label>
                 <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly">
+
+            <table class="viewdormtable" id="room">
+                <tr>
+                    <th>Room Type</th>
+                    <th>Price</th>
+                </tr> 
+               <tr>
+                    <td class="readapp">Single</td>
+                    <td class="readapp">1500</td>
+                </tr>
+               
+                </table>
 
             <a href="confirm"><button type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button></a>  
         </form>
