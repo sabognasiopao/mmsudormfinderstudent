@@ -173,6 +173,7 @@ background: #1D6115;
     display: flex;
     width: 60%;
     height: 100%;
+    float: left;
     background-color: #0C4B05;
     padding: 10% 5% 20% 3%;
 }

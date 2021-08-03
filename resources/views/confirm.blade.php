@@ -58,23 +58,13 @@
             <input type="date" id="birthday" style="width: 25%;" class="inputapp">
         <label style="margin-left:30px;" for="birthday">Address</label>
             <input type="text" id="birthday" value="Brgy. 26, Laoag City" style="width: 25%;" class="inputapp"><br><br><br><br>
-        
-        <label for="college">College:</label>
-        <select name="room" id="room" style="width:25%;"class="inputapp">
-            <option value="cas">CAS</option>
-            <option value="coe">COE</option>
-            <option value="cbea">CBEA</option>
-            <option value="chs">CHS</option>
-        </select>
-        
-        <label style="margin-left:30px;" for="course">Course:</label>
-        <select name="room" id="room" style="width:25%;"class="inputapp">
-            <option value="cas">CAS</option>
-            <option value="coe">COE</option>
-            <option value="cbea">CBEA</option>
-            <option value="chs">CHS</option>
-        </select><br><br>
 
+        <label for="college">College</label>
+            <input type="text" id="college" value="CAS" style="width: 25%;" class="inputapp">
+
+        <label style="margin-left:30px;" for="college">Course</label>
+            <input type="text" id="college" value="BSCS" style="width: 25%;" class="inputapp"><br><br>
+        
         <label  for="dorm">Dormitory</label>
             <input type="text" id="dorm" value="Insert Dorm Name" style="width: 25%;" class="inputapp">
         
