@@ -20,7 +20,7 @@
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
     </div>
     
-    <img style="width:35%;margin-left:10%;" src="images/mmsu logo.png" />
+    <img style="right:30%;" class="__img" src="images/mmsu logo.png" />
 
         <div class="logincontainer">
             <form>
