@@ -170,19 +170,15 @@ background: #1D6115;
 }
 
 .logincontainer {
-    display: flex;
-    width: 60%;
-    float: right;
-    height: 1000px;
-    background-color: #0C4B05;
-    
+  width: 45%;
+  float: left;
+  height: 900px;
+  background-color: #0C4B05;
 }
 
 .logincontainer form{
-  width: 40%;
-  height: 300px;
-  margin-left:33%;
-  margin-top: 15%;
+  width: 50%;
+  margin: 20% 0% 0% 10%;
 }
 
 .loginform {
