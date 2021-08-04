@@ -20,7 +20,7 @@ body {
 }
 
 h1{
-    color: #0C4B05;
+    color: white;
     font-size: 2vw;
 }
 
@@ -47,29 +47,33 @@ legend{
     color:#FFCD00;
     font-size:2vw;
 }
+
+.note{
+  color:#FFCD00;background-color: #0C4B05;margin-top:20px;width:50%;
+  border-radius: 10px;
+  padding:1%;
+}
+
 .profile_con{
   width:100%;
 }
 
 .profile_con form{
   margin-left:5%; margin-top:3%;
-  width:75%;
+  width:90%;
 
 }
 
-.note{
-  color:#FFCD00;background-color: #0C4B05;margin-top:20px;width:50%;
-  border-radius: 10px;
-  padding:1%;
-
-}
 
 .profile_con label{
   font-family: ABold;
   color: #0C4B05;
-  font-size: 1.2vw;
+  font-size: 1vw;
+  margin-right: 2%;
   display: inline-block;
   width: 20%;
+  margin-left: 0%;
+
 }
 
 label{
@@ -77,15 +81,14 @@ label{
     color: #0C4B05;
     font-size: 1.5vw;
     display: inline-block;
-    width: 25%;
-    margin-left: 1.8%;
+    width: 15%;
 }
 
 
 .header{
-  background-color: #FFCD00;
+  background-color:#1D6115;
   padding-left: 50px;
-  color: #0C4B05;
+  color: white;
   display: flex;
   width: auto;
 }
@@ -122,7 +125,12 @@ background: #1D6115;
   cursor: pointer;
 }
 
+.descriptiondorm{
+  font-size: 1.1vw;
+  color: #0C4B05;
 
+
+}
 .applistform{
     border-color: #FFCD00;
     border-style: solid;
@@ -373,7 +381,7 @@ background: #1D6115;
     position: relative;
     padding-left: 30px;
     width: 80%;
-    height: 400px;
+    height: 430px;
   }
   
   /* Hide the images by default */
@@ -450,17 +458,50 @@ background: #1D6115;
 
 /* TABLE FOR VIEW DORM */
 .viewdormtable{
-  width:50%;
-  font-size: 2vw;
+  width:100%;
+  font-size: 1.5vw;
 }
 .viewdormtable th{
 font-family: ABold;
 color: #0C4B05;
 font-size: 1.5vw;
 text-align: left;
+margin-right: 5%;
 }
 
-/* TABLE FOR VIEW DORM */
+.tablewrapper {
+  overflow:hidden;
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.tablewrapper th {
+  top: 0;
+  z-index: 2;
+  position: sticky;
+  background-color:#0C4B05;
+  color: whitesmoke;
+}
+/* END TABLE FOR VIEW DORM */
+
+/* AMENITIES LIST*/ 
+.ullist{
+  white-space:nowrap;
+  list-style-type:circle;
+  overflow-x:auto;
+  width: 30%;
+}
+
+.lilist{
+  display:inline;
+  list-style-type:circle;
+  font-size: 1.3vw;
+  color: black;
+  margin-right: 2%;
+}
+
+/* END AMENITIES LIST*/ 
+
 
 /* USER NAVIGATION */
 

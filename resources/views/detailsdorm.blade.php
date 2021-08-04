@@ -34,8 +34,10 @@
             </div>
     </div>
 
+<!-- TITLE OF DORMITORY  -->
     <div class="header"> <h1>HOUSING FACILITIES - Dorm Name</h1></div>
-        
+
+<!-- SLIDESHOW OF DORMITORY  -->
         <div class="dorm_name"> <h2>STUDENT RESIDENCE HALL</h2> </div><br>
         <div class="dorm_details_con">
 
@@ -53,19 +55,50 @@
         </div>
         </div>
 
-        <div class="dorm_details">    
+<!-- DETAILS OF DORMITORY  -->
+    <div class="dorm_details">    
         <form style="width:80%;">
-            <label for="fname">Manager</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Name" readonly="readonly"><br>
+        
+            <label for="fname" style="margin-left:2%;">Manager</label>
+                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Name" readonly="readonly">
             <label for="fname">Address</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Location" readonly="readonly"><br>
-            <label for="fname">Contact</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Contact" readonly="readonly"><br>
-            <label for="fname">Amenities</label>
-                <input type="text" id="fname" name="fname" style="width: 40%;" class="readapp" value="Sample Amenities" readonly="readonly"><br>
+                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Location" readonly="readonly"><br>
+            <label for="fname" style="margin-left:2%;">Contact</label>
+                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Contact" readonly="readonly">
             <label for="quantity" >Available space</label>
-                <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly">
+                <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly"><br><br>
+            
+            <div style="display:flex;">
+            <div class="tablewrapper" style="margin-right:20%;margin-left:2%;">
+            <table class="viewdormtable" id="room">
+                <tr>
+                    <th>Ammenities</th>
+                </tr> 
+               <tr>
+                    <td class="readapp">Single</td>
+               </tr>
+               <tr>
+                    <td class="readapp">Single</td>
+               </tr>
+               <tr>
+                    <td class="readapp">Single</td>
+               </tr>
+               <tr>
+                    <td class="readapp">Single</td>
+               </tr>
+               <tr>
+                    <td class="readapp">Single</td>
+               </tr>
+               <tr>
+                    <td class="readapp">Single</td>
+               </tr>
+               <tr>
+                    <td class="readapp">Single</td>
+               </tr>
+            </table>
+            </div>
 
+            <div class="tablewrapper"  >
             <table class="viewdormtable" id="room">
                 <tr>
                     <th>Room Type</th>
@@ -75,15 +108,40 @@
                     <td class="readapp">Single</td>
                     <td class="readapp">1500</td>
                 </tr>
+                <tr>
+                    <td class="readapp">Single</td>
+                    <td class="readapp">1500</td>
+                </tr>
+                <tr>
+                    <td class="readapp">Single</td>
+                    <td class="readapp">1500</td>
+                </tr>
+                <tr>
+                    <td class="readapp">Single</td>
+                    <td class="readapp">1500</td>
+                </tr>
+                <tr>
+                    <td class="readapp">Single</td>
+                    <td class="readapp">1500</td>
+                </tr>
+                <tr>
+                    <td class="readapp">Single</td>
+                    <td class="readapp">1500</td>
+                </tr>
                
-                </table>
-
+            </table>
+            </div>
+        
+        </div>
+            
+            <p class="descriptiondorm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <a href="confirm"><button type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button></a>  
         </form>
         </div>
 
+<!-- SCRIPT FOR SLIDESHOW  -->
 <script>
-
 var slideshow = document.getElementById("slideshow");
         slideshow.currentSlideIndex = 1;
         showSlides(slideshow.currentSlideIndex, slideshow);

@@ -43,40 +43,57 @@
 
     <div class="profile_con">
     <form>
-        <label for="fname">Full Name</label>
-            <input type="text" id="fname" value="Paola Francisco" style="width: 25%;" class="inputapp">
-        <label style="margin-left:30px;" for="fstudentid">Student Number</label>
-            <input type="text" id="fstudentid" value="18-020008" style="width: 25%;" class="inputapp" ><br><br>
-        <label for="sex">Sex</label>
-            <input type="text" id="sex" value="Female" style="width: 25%;" class="inputapp">
-        <label style="margin-left:30px;" for="email">Email</label>
-            <input type="email" id="email" value="pjnfrancisco@gmail.com" style="width: 25%;" class="inputapp"><br><br>
-        <label for="number">Mobile Number</label>
-            <input type="tel" id="number" value="09355350600" style="width: 25%;" class="inputapp">
-        <label style="margin-left:30px;" for="number">Contact of Guardian</label>
-            <input type="tel" id="number" value="09355350600" style="width: 25%;" class="inputapp"><br><br>
-        <label for="birthday">Date of Birth</label>
-            <input type="date" id="birthday" style="width: 25%;" class="inputapp">
-        <label style="margin-left:30px;" for="birthday">Address</label>
-            <input type="text" id="birthday" value="Brgy. 26, Laoag City" style="width: 25%;" class="inputapp"><br><br><br><br>
+        <label for="fstudentid">Student Number</label>  
+        <label  for="sex" >Sex</label>
+        <label for="email">Email</label>
+        <label  for="number">Mobile Number</label><br>
+        
+        <input type="text" style="width:20%;margin-right:2%;" id="fstudentid" value="18-020008" class="inputapp" >
+        <select name="room"  style="width:20%;margin-right:2%;" id="room" class="inputapp">
+                <option value="cas">Female</option>
+                <option value="coe">Male</option>
+         </select>
+        <input type="email" style="width:20%;margin-right:2%;" id="email" value="pjnfrancisco@gmail.com"  class="inputapp">
+        <input type="tel" style="width:20%;" id="number" value="09355350600" class="inputapp"><br><br>
+
+        <label for="fname">First Name</label>
+        <label for="mname">Midle Name</label>
+        <label for="lname">Last Name</label>
+        <label for="sname">Suffix (Jr,,III)</label><br>
+
+        <input type="text"  style="width:20%;margin-right:2%;" id="fname" value="Paola Joy" class="inputapp">
+        <input type="text"  style="width:20%;margin-right:2%;" id="mname" value="Nuque"  class="inputapp">
+        <input type="text"  style="width:20%;margin-right:2%;" id="lname" value="Francisco"  class="inputapp">
+        <input type="text"  style="width:20%;margin-right:2%;" id="sname" value="Jr."  class="inputapp"><br><br>
+
+        <label for="birthday">Barangay</label>
+        <label for="birthday">Street</label>
+        <label  for="birthday">City</label>
+        <label for="birthday">Province</label>
+        <input type="text" style="width:20%;margin-right:2%;" id="birthday" value="6"  class="inputapp">
+        <input type="text" style="width:20%;margin-right:2%;"id="birthday" value="T. Alonzo Street"  class="inputapp">
+        <input type="text" style="width:20%;margin-right:2%;"id="birthday" value="Laoag City"  class="inputapp">
+        <input type="text" style="width:20%;"id="birthday" value="Ilocos Norte" class="inputapp"><br><br>
+
+
+        <label for="nameg">Name of Guardian</label>
+        <label for="number">Contact of Guardian</label>
         <label for="college">College:</label>
-        <select name="room" id="room" style="width:20%;"class="inputapp">
+        <label for="course">Course:</label><br>
+
+        <input type="text" style="width:20%;margin-right:2%;"id="nameg" value="Philbert Francisco"  class="inputapp">
+        <input type="tel" style="width:20%;margin-right:2%;"id="number" value="09355350600"  class="inputapp">
+        <select name="college" style="width:20%;margin-right:2%;"id="room" class="inputapp">
             <option value="cas">CAS</option>
             <option value="coe">COE</option>
             <option value="cbea">CBEA</option>
             <option value="chs">CHS</option>
-        </select><br><br>
-        <label for="course">Course:</label>
-        <select name="room" id="room" style="width:20%;"class="inputapp">
-            <option value="cas">CAS</option>
-            <option value="coe">COE</option>
-            <option value="cbea">CBEA</option>
-            <option value="chs">CHS</option>
-        </select><br><br>
+        </select>
+        <input type="text" style="width:20%;margin-right:2%;"id="course" value="BSCS"  class="inputapp"><br><br>
        
 
-        <a href="home"><button type="button" class="greenbutton" style="margin-top:20px;">CANCEL</button></a>
-        <button type="button" onclick="updateProfileFunction()" class="secondyellowbutton" style="margin-right:10px;margin-top:20px;"> UPDATE</button>
+        <a href="home"><button type="button" class="greenbutton" style="margin-top:5%;margin-right:15%;">CANCEL</button></a>
+        <button type="button" onclick="updateProfileFunction()" class="secondyellowbutton" style="margin-right:2%;margin-top:5%;"> UPDATE</button>
     </div>
     </form>
 
