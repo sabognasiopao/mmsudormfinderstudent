@@ -36,7 +36,7 @@
 
     <div class="contactcontainer">
     <div class="boxcontact">
-        <h1>Frequently Asked Questions:</h1>
+        <h1 style="color:#0C4B05;">Frequently Asked Questions:</h1>
         <ol type="A">
             <li><b>How to update details in Dorm?</b></li>
                 <ol type="i">

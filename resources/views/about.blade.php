@@ -38,7 +38,7 @@
 
     <div class="contactcontainer">
     <div class="boxcontact">
-        <h1>What you need to know in Dorm Finder:</h1>
+        <h1 style="color:#0C4B05;">What you need to know in Dorm Finder:</h1>
         <ol type="A">
             <li><b>PURPOSE</b></li>
                 <ol type="i">
