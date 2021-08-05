@@ -29,6 +29,12 @@
                     <input type="password" id="password" placeholder="Password" class="loginform" style="margin-top:10px;"> <br>
 
                     <a href="home"><button type="button" class="yellowbutton" style="margin-left:0%;margin-top:15px;">Log In</button></a> 
+            
+            <hr>
+            
+            <label for="register" style="color:white;font-size:1vw;width:100%;text-align:center;">New Here? Register first!</label><br>
+            <a href="registrationstudent"> <button type="button" id="register" class="registerbutton" style="margin-top:15px;">Register</button></a>
+            
             </form>
         </div>
   

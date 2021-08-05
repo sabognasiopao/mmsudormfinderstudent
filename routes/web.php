@@ -60,3 +60,7 @@ Route::get('/about', function () {
 Route::get('/detailsdorm', function () {
     return view('detailsdorm');
 });
+
+Route::get('/registrationstudent', function () {
+    return view('registrationstudent');
+});

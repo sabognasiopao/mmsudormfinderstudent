@@ -59,17 +59,23 @@
     <div class="dorm_details">    
         <form style="width:80%;">
         
-            <label for="fname" style="margin-left:2%;">Manager</label>
+            <label  for="fname">Manager</label>
                 <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Name" readonly="readonly">
-            <label for="fname">Address</label>
-                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Location" readonly="readonly"><br>
-            <label for="fname" style="margin-left:2%;">Contact</label>
-                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Contact" readonly="readonly">
+            <label for="fname">Contact</label>
+                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Contact" readonly="readonly"><br>
+            <label for="fname">Barangay</label>
+                <input type="text" id="fname" name="fname" style="width: 10%;" class="readapp" value="6" readonly="readonly">
+            <label for="fname">Street</label>
+                <input type="text" id="fname" name="fname" style="width: 20%;" class="readapp" value="T. Alonzo St." readonly="readonly"><br>
+            <label  for="fname">House Number</label>
+                <input type="text" id="fname" name="fname" style="width: 10%;" class="readapp" value="#5" readonly="readonly">
+            <label  for="fname">Nearest Landmark</label>
+                <input type="text" id="fname" name="fname" style="width: 20%;" class="readapp" value="CAS" readonly="readonly"><br>
             <label for="quantity" >Available space</label>
-                <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly"><br><br>
+                <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly"><br>
             
             <div style="display:flex;">
-            <div class="tablewrapper" style="margin-right:20%;margin-left:2%;">
+            <div class="tablewrapper" style="margin-right:20%;">
             <table class="viewdormtable" id="room">
                 <tr>
                     <th>Ammenities</th>

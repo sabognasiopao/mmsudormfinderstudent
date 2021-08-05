@@ -35,11 +35,6 @@
     </div>
 
     <div class="header"> <h1>HOUSING FACILITIES - ON CAMPUS</h1>
-    <label for="room" style="width:5%;">Price</label>
-                <select name="room" id="room" class="inputapp">
-                    <option value="coe">Low to High</option>
-                    <option value="cbea">High to Low</option>
-                </select>
 
     <form style="margin-left:10%;margin-top:2%;" action="###">
         <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search.." name="search">
