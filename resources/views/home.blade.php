@@ -28,7 +28,7 @@
                         <ul>
                         <li><a href="profilestudent">Profile</a></li><br>
                         <li><a href="applicationlist">Application List</a></li><br>
-                        <li><a href="welcome">Log Out</a></li>
+                        <li><button type="button"><a href="welcome">Log Out</a></button></li>
                         </ul>
                     </ul></li>
             </div>
