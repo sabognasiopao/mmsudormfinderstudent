@@ -11,8 +11,8 @@
         <link rel="icon" href="/images/mmsu logo.png">
     </head>
 
-    <body style="background-image: url('/images/bg.jpg');background-repeat: no-repeat; background-size: 100% 100%;">
-    <div class="uppernav"> <h3 style="margin-left:20px;color:#0C4B05;">MMSU </h3><h3> - Dorm Finder</h3> </div>
+    <body style="background-image: url('/images/bg.png');background-repeat: no-repeat; background-size: 100% 100%;">
+    <div class="uppernav"> <h3 style="margin-left:20px;">MMSU - Dorm Finder</h3> </div>
         
     <div class="topnav" id="myTopnav">
        <img style="float:left;margin-left:20px;margin-top:5px;" src="/images/mmsu logo.png"  height="4%" width="4%">
@@ -34,14 +34,13 @@
             </div>
     </div>
 
-    <img style="z-index: 2;right:10%;" class="__img" src="images/mmsu logo.png" />
-    <input type="radio" name="item" checked="checked" id="section1" />
-    
+    <img style="z-index: 2;right:5%;" class="__img" src="images/mmsu logo.png" />
 
-    <section style="width: 70%;margin-left:0%;padding-bottom:5%;">
-        <h2 class="h2nav"><p class="text--sub">welcome !</p>STUDENT HOUSE<br> FACILITIES <p class="text--normal">With the understanding of the role that accommodation plays supporting 
+    <input type="radio" name="item" checked="checked" id="section1" />
+    <section style="width:50%;margin-left:10%;padding: 1% 2% 5% 2%;">
+        <h2  class="h2nav"><p class="text--sub">welcome to !</p>STUDENT HOUSE<br> FACILITIES <p style="width:100%;" class="text--normal">With the understanding of the role that accommodation plays supporting 
             academic performance, the Mariano Marcos State University offers a decent array of accommodations for qualified students. These accommodations are made available exclusively to its residents with the goal of providing secure and comfortable safe spaces to live in during their stay in the University.</p>
-          <a href="dorm"><button type="button" style="margin-top:1%;" class="dorm">A P P L Y</button></a>
+          <a href="dorm"><button type="button" style="margin-top:1%;" class="dorm">APPLY NOW</button></a>
         </h2>
     </section>
 

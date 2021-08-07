@@ -36,76 +36,81 @@
             </div>
     </div>
 
-    <div class="header">
-        <h1>MY PROFILE</h1>
-    </div>
+<!-- SLIDESHOW OF DORMITORY  -->
+        <div class="dorm_name">STUDENT RESIDENCE HALL </div><br>
+        <div class="dorm_details_con">
 
-    <div class="profile_con">
-    <form>
-    
-    <label for="fstudentid">Student Number</label>  
-        <label  for="sex" >Sex</label>
-        <label for="email">Email</label>
-        <label  for="number">Mobile Number</label><br>
+        <div id="slideshow" class="imgcontainer">
+        <div class="mySlides"> <img src="/images/sample.jpg" style="width:100%;height:500px;"><div class="text">Single Space</div></div>
+
+        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:500px;"><div class="text">Amenities</div> </div>
+
+        <div class="mySlides"><img src="/images/sample.jpg"  style="width:100%;height:500px;"><div class="text">Single Space</div> </div>
+
+        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:500px;"><div class="text">Amenities</div> </div>
+
+        <a class="prev" onclick="plusSlides(-1, slideshow)">❮</a>
+        <a class="next" onclick="plusSlides(1, slideshow)">❯</a>
+        </div>
+           <p class="descriptiondorm"> A dormitory (originated from the Latin word dormitorium, often abbreviated to dorm) is a building primarily providing sleeping and residential 
+               quarters for large numbers of people such as boarding school, high school, college or university students. </p>
+        </div>
+
+<!-- DETAILS OF DORMITORY  -->
+<div class="dorm_details">    
+        <form style="width:80%;">
         
-        <input type="text" style="width:20%;margin-right:2%;" id="fstudentid" value="18-020008" class="inputapp" readonly >
-        <input type="text" style="width:20%;margin-right:2%;" id="sec" value="Female" class="inputapp" readonly>
-        <input type="email" style="width:20%;margin-right:2%;" id="email" value="pjnfrancisco@gmail.com"  class="inputapp" readonly>
-        <input type="tel" style="width:20%;" id="number" value="09355350600" class="inputapp" readonly><br><br>
-
-        <label for="fname">First Name</label>
-        <label for="mname">Midle Name</label>
-        <label for="lname">Last Name</label>
-        <label for="sname">Suffix (Jr,,III)</label><br>
-
-        <input type="text"  style="width:20%;margin-right:2%;" id="fname" value="Paola Joy" class="inputapp" readonly>
-        <input type="text"  style="width:20%;margin-right:2%;" id="mname" value="Nuque"  class="inputapp" readonly>
-        <input type="text"  style="width:20%;margin-right:2%;" id="lname" value="Francisco"  class="inputapp" readonly>
-        <input type="text"  style="width:20%;margin-right:2%;" id="sname" value="Jr."  class="inputapp" readonly><br><br>
-
-        <label for="birthday">Barangay</label>
-        <label for="birthday">Street</label>
-        <label  for="birthday">City</label>
-        <label for="birthday">Province</label>
-        <input type="text" style="width:20%;margin-right:2%;" id="birthday" value="6"  class="inputapp" readonly>
-        <input type="text" style="width:20%;margin-right:2%;"id="birthday" value="T. Alonzo Street"  class="inputapp" readonly>
-        <input type="text" style="width:20%;margin-right:2%;"id="birthday" value="Laoag City"  class="inputapp" readonly>
-        <input type="text" style="width:20%;"id="birthday" value="Ilocos Norte" class="inputapp" readonly><br><br>
-
-
-        <label for="nameg">Name of Guardian</label>
-        <label for="number">Contact of Guardian</label>
-        <label for="college">College:</label>
-        <label for="course">Course:</label><br>
-
-        <input type="text" style="width:20%;margin-right:2%;"id="nameg" value="Philbert Francisco"  class="inputapp" readonly>
-        <input type="tel" style="width:20%;margin-right:2%;"id="number" value="09355350600"  class="inputapp" readonly>
-        <input type="text" style="width:20%;margin-right:2%;"id="college" value="CAS"  class="inputapp" readonly>
-        <input type="text" style="width:20%;margin-right:2%;"id="course" value="BSCS"  class="inputapp" readonly><br><br>
-
-        <h2 style="color:#0C4B05;">SELECT DESIRED ROOM TYPE:</h2>
-        <label  for="dorm">Dormitory</label>
-        <label  for="room">Type of Room</label>
-        <label for="contract">Contract</label><br>
+        <h2 style="color:#0C4B05;">Confirm your Application</h2>
+        <label  style="width:25%;margin-right:2%;" for="dorm">Dormitory</label>
+        <label  style="width:25%;margin-right:2%;" for="room">Type of Room</label><br>
         
-        <input type="text" id="dorm" style="width:20%;margin-right:2%;" value="Insert Dorm Name" class="inputapp">
+        <input type="text" id="dorm" style="width:25%;margin-right:2%;" value="Insert Dorm Name" readonly class="inputapp">
   
-        <select name="room" id="room" style="width:20%;margin-right:2%;" class="inputapp">
-            <option value="cas">CAS</option>
+        <select name="room" id="room" style="width:25%;margin-right:2%;" class="inputapp">
+            <option>Select Room Type</option>
             <option value="coe">COE</option>
             <option value="cbea">CBEA</option>
             <option value="chs">CHS</option>
         </select>
-        <a href="/sampledocx/sampledoc.pdf" download><button type="button" id="contract" class="contractbutton"  > DOWNLOAD FILE</button></a>
+         <br>
+        <button type="button" onclick="###" class="secondyellowbutton" style="width:20%;margin-top:5%;float:left;"> CONFIRM</button>
+        <a href="home"><button type="button" class="confirmcancelbutton">CANCEL</button></a><br>
         
-        <div style="display:flex;width:100%;">
-        <p class="note"> NOTE: Before confirming, kindly check the contract for the terms of service.</p>
-        <button type="button" onclick="###" class="secondyellowbutton" style="margin-top:20px;margin-right:10px;margin-left:10%;"> CONFIRM</button>
-        <a href="home"><button type="button"  class="cancelbutton">CANCEL</button></a>
-        
+        <p style="margin-top:10%;"class="note"> NOTE: After confirming, wait for 1-3 business days for the process, if still waiting for
+        approval, feel free to apply to other available dormitories </p>
+
+        </form>
         </div>
-    </div>
-    </form>
+
+<!-- SCRIPT FOR SLIDESHOW  -->
+<script>
+var slideshow = document.getElementById("slideshow");
+        slideshow.currentSlideIndex = 1;
+        showSlides(slideshow.currentSlideIndex, slideshow);
+
+        function plusSlides(n, slideshow) {
+        showSlides(slideshow.currentSlideIndex += n, slideshow);
+        }
+
+        function currentSlide(n, slideshow) {
+        showSlides(slideshow.currentSlideIndex = n, slideshow);
+        }
+
+        function showSlides(n, slideshow) {
+  
+            var i;
+            var slides = slideshow.getElementsByClassName("mySlides");
+       
+            if (n > slides.length) {slideshow.currentSlideIndex = 1}    
+            if (n < 1) {slideshow.currentSlideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+
+        slides[slideshow.currentSlideIndex-1].style.display = "block";  
+        }
+    
+</script>
 
     </body>
 </html>

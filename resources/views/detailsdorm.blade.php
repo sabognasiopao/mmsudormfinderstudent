@@ -35,24 +35,26 @@
     </div>
 
 <!-- TITLE OF DORMITORY  -->
-    <div class="header"> <h1>HOUSING FACILITIES - Dorm Name</h1></div>
+    <div class="header"> <h1>HOUSING FACILITIES - Details</h1></div>
 
 <!-- SLIDESHOW OF DORMITORY  -->
-        <div class="dorm_name"> <h2>STUDENT RESIDENCE HALL</h2> </div><br>
+        <div class="dorm_name">STUDENT RESIDENCE HALL </div><br>
         <div class="dorm_details_con">
 
         <div id="slideshow" class="imgcontainer">
-        <div class="mySlides"> <img src="/images/sample.jpg" style="width:100%;height:100%;"></div>
+        <div class="mySlides"> <img src="/images/sample.jpg" style="width:100%;height:100%;"><div class="text">Single Space</div></div>
 
-        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
+        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:100%;"><div class="text">Amenities</div> </div>
 
-        <div class="mySlides"><img src="/images/sample.jpg"  style="width:100%;height:100%;"> </div>
+        <div class="mySlides"><img src="/images/sample.jpg"  style="width:100%;height:100%;"><div class="text">Single Space</div> </div>
 
-        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:100%;"> </div>
+        <div class="mySlides"><img src="/images/sample2.jpg"  style="width:100%;height:100%;"><div class="text">Amenities</div> </div>
 
         <a class="prev" onclick="plusSlides(-1, slideshow)">❮</a>
         <a class="next" onclick="plusSlides(1, slideshow)">❯</a>
         </div>
+           <p class="descriptiondorm"> A dormitory (originated from the Latin word dormitorium, often abbreviated to dorm) is a building primarily providing sleeping and residential 
+               quarters for large numbers of people such as boarding school, high school, college or university students. </p>
         </div>
 
 <!-- DETAILS OF DORMITORY  -->
@@ -64,18 +66,15 @@
             <label for="fname">Contact</label>
                 <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="Sample Contact" readonly="readonly"><br>
             <label for="fname">Barangay</label>
-                <input type="text" id="fname" name="fname" style="width: 10%;" class="readapp" value="6" readonly="readonly">
+                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="6 Quiling Sur" readonly="readonly">
             <label for="fname">Street</label>
-                <input type="text" id="fname" name="fname" style="width: 20%;" class="readapp" value="T. Alonzo St." readonly="readonly"><br>
-            <label  for="fname">House Number</label>
-                <input type="text" id="fname" name="fname" style="width: 10%;" class="readapp" value="#5" readonly="readonly">
+                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="T. Alonzo St." readonly="readonly"><br>
             <label  for="fname">Nearest Landmark</label>
-                <input type="text" id="fname" name="fname" style="width: 20%;" class="readapp" value="CAS" readonly="readonly"><br>
+                <input type="text" id="fname" name="fname" style="width: 25%;" class="readapp" value="CAS" readonly="readonly">
             <label for="quantity" >Available space</label>
                 <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly"><br>
             
-            <div style="display:flex;">
-            <div class="tablewrapper" style="margin-right:20%;">
+            <div style="display:flex;margin-top:5%;">
             <table class="viewdormtable" id="room">
                 <tr>
                     <th>Ammenities</th>
@@ -92,57 +91,46 @@
                <tr>
                     <td class="readapp">Single</td>
                </tr>
-               <tr>
-                    <td class="readapp">Single</td>
-               </tr>
-               <tr>
-                    <td class="readapp">Single</td>
-               </tr>
-               <tr>
-                    <td class="readapp">Single</td>
-               </tr>
+              
             </table>
-            </div>
+          
 
-            <div class="tablewrapper"  >
             <table class="viewdormtable" id="room">
                 <tr>
                     <th>Room Type</th>
+                    <th>Vacancy</th>
                     <th>Price</th>
                 </tr> 
                <tr>
                     <td class="readapp">Single</td>
+                    <td class="readapp">5</td>
                     <td class="readapp">1500</td>
+
                 </tr>
                 <tr>
                     <td class="readapp">Single</td>
+                    <td class="readapp">5</td>
                     <td class="readapp">1500</td>
+
                 </tr>
                 <tr>
                     <td class="readapp">Single</td>
+                    <td class="readapp">5</td>
                     <td class="readapp">1500</td>
+
                 </tr>
                 <tr>
                     <td class="readapp">Single</td>
+                    <td class="readapp">5</td>
                     <td class="readapp">1500</td>
+
                 </tr>
-                <tr>
-                    <td class="readapp">Single</td>
-                    <td class="readapp">1500</td>
-                </tr>
-                <tr>
-                    <td class="readapp">Single</td>
-                    <td class="readapp">1500</td>
-                </tr>
-               
             </table>
-            </div>
+            
         
         </div>
-            
-            <p class="descriptiondorm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <a href="confirm"><button type="button" class="secondyellowbutton" style="margin-top:1%;width:20%;"> APPLY</button></a>  
+
+            <a href="confirm"><button type="button" class="secondyellowbutton" style="margin-top:5%;width:25%;"> APPLY</button></a>  
         </form>
         </div>
 

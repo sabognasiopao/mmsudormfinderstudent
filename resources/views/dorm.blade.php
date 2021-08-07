@@ -33,35 +33,29 @@
                     </ul></li>
             </div>
     </div>
-
-
-        <input type="radio" name="item" checked="checked" id="section1" />
-    <input type="radio" name="item" id="section2" />
     
-    <nav class="nav">
-      <label class="nav-item" for="section1">ON</label>
-      <label class="nav-item" for="section2">OFF</label>
-    </nav>
+<div style="width:100%;display:flex;">
 
-    <section>
-        <h2 class="h2nav"><p class="text--sub">house facilities</p>On Campus <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
-          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ON CAMPUS</p>
-          <a href="oncampus"><button type="button" class="dorm">E N T E R</button></a>
+<div class="centerheader"><p class="text--sub">choose type of housing facility:</p></div>
+
+    <div class="onslider">
+        <h2 class="h2nav">On Campus <p class="text--normal">Staying within the facilities owned by the
+        university.</p><p class="text__background">ON CAMPUS</p>
+          <a href="oncampus"><button type="button" style="margin-left:0%;width:50%;" class="dorm">E N T E R</button></a>
         </h2>
-          <img class="__img" src="images/on.png" />
+          <img style="right: 60%;" class="__img" src="images/on.png" />
           
-    </section>
+    </div>
    
-    <section>
-        <h2 class="h2nav"><p class="text--sub">house facilities</p>Off Campus <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
-          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ON CAMPUS</p>
-          <a href="oncampus"><button type="button" class="dorm">E N T E R</button></a>
+    <div class="offslider">
+        <h2 class="h2nav">Off Campus <p class="text--normal">Staying within the facilities owned by the
+        university. </p><p class="text__background">OFF CAMPUS</p>
+          <a href="offcampus"><button type="button" style="margin-left:0%;width:40%;" class="dorm">E N T E R</button></a>
         </h2>
           
-          <img class="__img" src="images/off.png" />
-        </section>
-    
-    <div class="cover"></div>
+          <img  style="right: 1%;" class="__img" src="images/off.png" />
+    </div>
+</div> 
 
 </body>
 </html>
