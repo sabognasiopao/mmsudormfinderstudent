@@ -61,18 +61,25 @@
         <form style="width:80%;">
         
         <h2 style="color:#0C4B05;">Confirm your Application</h2>
-        <label  style="width:25%;margin-right:2%;" for="dorm">Dormitory</label>
-        <label  style="width:25%;margin-right:2%;" for="room">Type of Room</label><br>
-        
-        <input type="text" id="dorm" style="width:25%;margin-right:2%;" value="Insert Dorm Name" readonly class="inputapp">
+
+        <label  style="width:25%;margin-right:2%;" for="dorm">Dormitory</label> 
+        <label  style="width:25%;" for="room">Type of Room</label><br>
   
-        <select name="room" id="room" style="width:25%;margin-right:2%;" class="inputapp">
+        <input type="text" id="dorm" style="width:25%;margin-right:2%;" value="Insert Dorm Name" readonly class="inputapp">
+        <select name="room" id="room" style="width:25%;" class="inputapp">
             <option>Select Room Type</option>
             <option value="coe">COE</option>
             <option value="cbea">CBEA</option>
             <option value="chs">CHS</option>
-        </select>
-         <br>
+        </select><br><br>
+
+        <label  style="width:25%;margin-right:2%;" for="room">Room Fee</label>
+        <label  style="width:25%;" for="room">Vacancy</label><br>
+        <input type="text" id="dorm" style="width:25%;margin-right:2%;" value="1500" readonly class="inputapp">
+        <input type="text" id="dorm" style="width:25%;margin-right:2%;" value="5" readonly class="inputapp"><br>
+
+
+
         <button type="button" onclick="###" class="secondyellowbutton" style="width:20%;margin-top:5%;float:left;"> CONFIRM</button>
         <a href="home"><button type="button" class="confirmcancelbutton">CANCEL</button></a><br>
         

@@ -513,7 +513,6 @@ background: #1D6115;
 .viewdormtable{
   width:100%;
   font-size: 1.5vw;
-  margin-right: 2%;
 }
 .viewdormtable th{
 font-family: ABold;
@@ -522,10 +521,9 @@ background-color: #0C4B05;
 font-size: 1.5vw;
 text-align: left;
 height: 20px;
-top: 0;
-z-index: 2;
 position: sticky;
 }
+
 
 
 /* END TABLE FOR VIEW DORM */

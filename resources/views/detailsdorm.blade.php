@@ -74,27 +74,21 @@
             <label for="quantity" >Available space</label>
                 <input type="number" id="quantity" name="quantity" style="width:10%;" class="readapp" min="0" value="10" readonly="readonly"><br>
             
-            <div style="display:flex;margin-top:5%;">
+            <div style="display:flex;margin-top:2%;">
+
+            <div>
             <table class="viewdormtable" id="room">
                 <tr>
                     <th>Ammenities</th>
                 </tr> 
                <tr>
-                    <td class="readapp">Single</td>
+                    <td class="readapp">Aircondition</td>
                </tr>
-               <tr>
-                    <td class="readapp">Single</td>
-               </tr>
-               <tr>
-                    <td class="readapp">Single</td>
-               </tr>
-               <tr>
-                    <td class="readapp">Single</td>
-               </tr>
-              
+               
             </table>
+            </div>
           
-
+            <div style="margin-left:5%;">
             <table class="viewdormtable" id="room">
                 <tr>
                     <th>Room Type</th>
@@ -126,7 +120,7 @@
 
                 </tr>
             </table>
-            
+            </div>
         
         </div>
 
