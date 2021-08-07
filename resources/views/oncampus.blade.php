@@ -52,6 +52,7 @@
             <th>DORMITORY NAME</th>
             <th>DORM MANAGER</th>
             <th>CONTACT NUMBER</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -59,6 +60,7 @@
             <td><a href="detailsdorm">Ladies Dormitory</a></td>
             <td>Marilyn Rojo</td>
             <td>09355350600</td>
+            <td><a href="detailsdorm"><button type="button">VIEW</button></a></td>
           </tr>
         </tbody>
       </table>

@@ -691,6 +691,31 @@ position: sticky;
   height: 400px;
   width: 95%;
 }
+
+.tableFixHead button{
+  background-color: #0C4B05;
+  color: white;
+  font-size: 1.2vw;
+  border-style: none;
+  border-radius: 10px;
+  width: 60%;
+  height: 35px;
+}
+
+
+.tableFixHead button:hover{
+  background-color: #FFB700;
+  color:#0C4B05;
+  font-size: 1.2vw;
+  border-style: none;
+  border-radius: 10px;
+  width: 60%;
+  height: 35px;
+  cursor: pointer;
+}
+
+
+
 .tableFixHead thead th {
   position: sticky;
   top: 0;
@@ -780,7 +805,7 @@ section {
 
 .h2nav {
   font-size: 80px;
-  text-align: left;
+  text-align: center;
   color: white;
 }
 section:nth-of-type(1) {
@@ -851,7 +876,6 @@ input[type='radio']#section1:checked ~ .cover {
   width: 30%;
   height: 40px;
   border-radius: 15px;
-  margin-left: 35%;
   cursor: pointer;
   border-style: none;
   font-size: 1.3vw;
