@@ -321,7 +321,7 @@ background: #1D6115;
 .inputapp{
     font-family: Regular;
     height: 30px;
-    font-size: 1vw;
+    font-size: 1.2vw;
     display: inline-block;
 }
 
@@ -893,10 +893,11 @@ background-color: #1D6115;
 
 .smallheader{
   padding: 0.5% 0.5% 0.5% 2%;
-  margin-bottom: 2%;
+  margin-bottom: 0.5%;
+  margin-top:0.5%;
   color:white;
   width: 100%;
   background-color: #0C4B05;
-  font-size: 1.8vw;
+  font-size: 1.4vw;
 
 }

@@ -90,7 +90,7 @@
         </select>
         <input type="text" style="width:20%;margin-right:2%;"id="course" value="BSCS"  class="inputapp"><br><br>
 
-    <div class="smallheader">PERSONAL INFORMATION</div>
+    <div class="smallheader">OTHER INFORMATION</div>
          <label  for="sex" >Sex</label><br>
          <select name="room"  style="width:20%;margin-right:2%;" id="room" class="inputapp">
                 <option value="cas">Female</option>
